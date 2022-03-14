@@ -136,7 +136,7 @@ class WeekEditorState extends MusicBeatState
 		UI_box.selected_tab_id = 'Week';
 		add(UI_box);
 
-		var loadWeekButton:FlxButton = new FlxButton(0, 650, "Load Week", function() {
+		var loadWeekButton:FlxButton = new FlxButton(0, 650, "Load The Corrupted Week", function() {
 			loadWeek();
 		});
 		loadWeekButton.screenCenter(X);
@@ -150,7 +150,7 @@ class WeekEditorState extends MusicBeatState
 		freeplayButton.screenCenter(X);
 		add(freeplayButton);
 	
-		var saveWeekButton:FlxButton = new FlxButton(0, 650, "Save Week", function() {
+		var saveWeekButton:FlxButton = new FlxButton(0, 650, "Save The Corrupted Week", function() {
 			saveWeek(weekFile);
 		});
 		saveWeekButton.screenCenter(X);
@@ -371,13 +371,13 @@ class WeekEditorState extends MusicBeatState
 		if(isMissing) {
 			weekThing.visible = false;
 			missingFileText.visible = true;
-			missingFileText.text = 'MISSING FILE: images/storymenu/' + assetName + '.png';
+			missingFileText.text = 'MISSING CORRUPTED FILE: images/storymenu/' + assetName + '.png';
 		}
 		recalculateStuffPosition();
 
 		#if desktop
 		// Updating Discord Rich Presence
-		DiscordClient.changePresence("Week Editor", "Editting: " + weekFileName);
+		DiscordClient.changePresence("Corrupting The Week Editor", "Corrupting: " + weekFileName);
 		#end
 	}
 	
