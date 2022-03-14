@@ -149,7 +149,8 @@ class CharacterEditorState extends MusicBeatState
 		\nSpace - Play Animation
 		\nArrow Keys - Move Character Offset
 		\nT - Reset Current Offset
-		\nHold Shift to Move 10x faster\n".split('\n');
+		\nHold Shift to Move 10x faster
+                /nThis Shit Is Useless Get Real\n".split('\n');
 
 		for (i in 0...tipTextArray.length-1)
 		{
