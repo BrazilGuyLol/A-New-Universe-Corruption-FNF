@@ -1,0 +1,45 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				-249
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": false,
+			"name": "GF And Pump Dancing Beat Part 2"
+		},
+		{
+			"offsets": [
+				0,
+				-249
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "SingUP",
+			"loop": false,
+			"name": "GF And Pump Dancing Beat Part 2"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "crowd/girlfriend_and_pump",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "gfpart2",
+	"flip_x": false,
+	"healthbar_colors": [
+		165,
+		0,
+		77
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 4,
+	"scale": 1
+}
